@@ -1,0 +1,17 @@
+.parent {
+  @apply m-8 shadow-lg;
+  .zac {
+    @apply text-3xl font-bold text-center text-white p-3 rounded-3xl my-1;
+  }
+  .button {
+    @apply text-2xl text-white p-2
+  bg-orange-600 font-bold  block mx-auto w-full hover:bg-orange-700 transition-colors ease-in;
+  }
+
+  .input {
+    @apply block w-full p-2 bg-slate-500 text-white outline-none transition-colors;
+    &:first-child {
+      @apply border-b border-slate-400;
+    }
+  }
+}
